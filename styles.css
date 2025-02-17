@@ -9,43 +9,26 @@ html {
   padding: 0;
   border: 0;
 }
-
 body {
-  height: 100vh;
+  font-family: "Roboto", sans-serif;
 }
-
-.container {
-  display: flex;
-  justify-content: space-between;
-}
+/* End css reset */
 
 .hero {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 24px;
+  justify-content: space-around;
+  background-color: #1f2937;
+  font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
-  background-color: #1f2937;
-  width: 100%;
 }
 
-.hero h1 {
-  padding: 0 200px;
-}
-ul {
-  display: flex;
-}
-
-ul li {
-  list-style-type: none;
-  padding: 0 12px;
-}
-
-ul a {
-  font-size: 18px;
-  font-weight: 400;
+.hero a {
   text-decoration: none;
+  font-size: 24px;
   color: #e5e7eb;
+}
+.hero ul {
+  display: flex;
+  list-style-type: none;
 }
